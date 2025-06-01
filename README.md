@@ -59,18 +59,9 @@ The project includes both unit tests and instrumentation tests:
 - **VideoMetadataServiceTest**: Tests the video metadata service's mock data generation
 - **VideoResolutionTest**: Tests the string formatting of video resolution objects
 
-### Instrumentation Tests
-- **PlayerFragmentTest**: Tests the UI elements of the player fragment
-- **MetadataComposeTest**: Tests the Compose UI for the metadata screen using Compose UI testing
-
 To run unit tests:
 ```
 ./gradlew test
-```
-
-To run instrumentation tests:
-```
-./gradlew connectedAndroidTest
 ```
 
 ## Package Name
