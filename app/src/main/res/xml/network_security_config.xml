@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<network-security-config>
+    <!-- Deny cleartext traffic (HTTP) for all domains -->
+    <base-config cleartextTrafficPermitted="false">
+        <trust-anchors>
+            <certificates src="system" />
+        </trust-anchors>
+    </base-config>
+    
+    <!-- Example certificate pinning for YouTube API -->
+    <!-- Uncomment and replace with actual pins for production use
+    <domain-config>
+        <domain includeSubdomains="true">www.googleapis.com</domain>
+        <pin-set expiration="2024-12-31">
+            <pin digest="SHA-256">YOUR_CERTIFICATE_PIN_HERE</pin>
+            <pin digest="SHA-256">BACKUP_CERTIFICATE_PIN_HERE</pin>
+        </pin-set>
+    </domain-config>
+    -->
+    
+    <!-- Allow debugging tools in debug builds only -->
+    <debug-overrides>
+        <trust-anchors>
+            <certificates src="system" />
+            <certificates src="user" />
+        </trust-anchors>
+    </debug-overrides>
+</network-security-config> 

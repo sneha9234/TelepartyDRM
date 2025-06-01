@@ -1,0 +1,22 @@
+# Random strings for ProGuard obfuscation dictionary
+# This increases security by making decompiled code harder to understand
+xKg9Wp2s
+P3rTu7Vx
+qYz5Ae8B
+cDf0Gh1J
+kLm4No6P
+rSt2Uv3W
+yZa7Bc9D
+eF0gHi1J
+kL2mNo3P
+qR4sT5uV
+wX6yZ7aB
+cD8eF9gH
+iJkLmNoP
+qRsTuVwX
+yZaBcDeF
+gHiJkLmN
+oPqRsTuV
+wXyZaBcD
+eFgHiJkL
+mNoPqRsT 
