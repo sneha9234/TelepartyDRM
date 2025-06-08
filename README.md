@@ -58,17 +58,3 @@ The project includes both unit tests and instrumentation tests:
 ### Unit Tests
 - **VideoMetadataServiceTest**: Tests the video metadata service's mock data generation
 - **VideoResolutionTest**: Tests the string formatting of video resolution objects
-
-To run unit tests:
-```
-./gradlew test
-```
-
-## Package Name
-
-The package name `com.example.telepartyproject` follows the standard naming convention for example or demo projects:
-
-1. **Domain Prefix**: 'com.example' is the standard prefix for example applications
-2. **Project Name**: 'telepartyproject' describes the specific project
-
-This package name is appropriate for development, testing, and educational purposes. For a production app, a more specific package name based on the actual organization's domain would be used. 
